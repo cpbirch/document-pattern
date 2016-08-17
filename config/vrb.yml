@@ -1,0 +1,8 @@
+http:
+  port:       9090
+  admin-port: 9091
+
+mongodb:
+  db-host: localhost
+  db-port: 27017
+  db-name: vrb
