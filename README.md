@@ -43,3 +43,13 @@ To see the full document, try
 
     curl http://localhost:9090/equipment/0
 
+## Policy Inspections
+
+Now you're free to pipe your stored equipment definitions to a URL to evaluate for insurance purposes.  Try the following:
+
+    curl http://localhost:9090/equipment/0 | curl -H "Content-Type: application/json" -X POST -d @- http://localhost:9090/insure-ship
+
+Or if you'd prefer to insure a spacecraft:
+
+    curl http://localhost:9090/equipment/0 | curl -H "Content-Type: application/json" -X POST -d @- http://localhost:9090/insure-spacecraft
+
