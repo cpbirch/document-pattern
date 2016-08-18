@@ -3,13 +3,13 @@ An example application to demonstrate how flexible document APIs are and how doc
 
 In financial institutions or in government, there is a common user-journey pattern:
 
-APPLY -> ASSESS -> PAY -> REPAY (not usually government)
+APPLY -> ASSESS -> PAY -> REPAY (replay is not usually a government concern)
 
 Using a mortgage as an example, banks vary their terms and conditions over periods of time and have different demands on evidence, verification etc.  In a relational database, ORM and fine grained object world, the application form is closely coupled to storage and to APIs for evaluating mortgage applications.  This means a change in policy requires a change in all of the steps of the user-journey above.
 
 This code base serves as an example to show how the right level of encapsulation allows applications to be decoupled from their processing.
 
-I'd like to thnk Jim Barrit, Shodan Seth for defining this approach and to Martin Fowler for giving me the courage to do this at a client.
+I'd like to thank Jim Barrit, Shodan Seth for defining this approach and to Martin Fowler for giving me the courage to do this at a client.
 
 ## Getting Started
 
