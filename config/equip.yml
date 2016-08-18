@@ -5,4 +5,4 @@ http:
 mongodb:
   db-host: localhost
   db-port: 27017
-  db-name: vrb
+  db-name: equip

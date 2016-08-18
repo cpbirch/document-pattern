@@ -1,4 +1,4 @@
-(defproject venue-resource-booking "0.1.0-SNAPSHOT"
+(defproject document-pattern "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -16,7 +16,7 @@
                  [ring/ring-jetty-adapter "1.4.0"]
                  [ring/ring-json "0.4.0"]]
 
-  :main ^:skip-aot venue-resource-booking.core
+  :main ^:skip-aot document-pattern.core
   :target-path "target/%s"
   :test-paths  ["test/unit"]
 
